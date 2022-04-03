@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {},
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react",
+        "types": ["jest", "node"],
+        "outDir": "dist",
+        "declaration": true
+    },
+    "include": ["src/*.tsx", "**/*.ts", "**/*.spec.tsx", "**/*.test.tsx"],
+    "exclude": ["node_modules", "dist", "jest.config.js"]
+}
